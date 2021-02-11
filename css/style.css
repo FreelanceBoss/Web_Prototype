@@ -1,3 +1,10 @@
 .navbar{
     background-color: orange!important;
 }
+.cardContainer{
+    padding: 8px;
+}
+.row{
+    display: flex;
+    justify-content:center;
+}
