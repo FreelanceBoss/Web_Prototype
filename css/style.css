@@ -65,7 +65,47 @@
     height: 50px;
     background-color: #FFBB0E;
 }
-
+#signup{
+    background-color: #FFBB0E;
+}
+.signupContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#msform{
+    max-width: 500px;
+    min-width: 400px
+}
+.fieldtabs{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 50px 5px rgba(0,0,0,0.25);
+    padding: 20px 30px;
+    
+}
+#fieldHeader{
+    width: 70%;
+    margin: 0 auto;
+}
+.signupInputs{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 5px solid black;
+    margin-bottom: 40px;
+}
+.action-button{
+    border:none;
+    width: 40%;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#workContainer
 /*Typography*/
 h2{
     text-align: center;
