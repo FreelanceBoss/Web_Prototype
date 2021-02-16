@@ -14,16 +14,16 @@
 <body id="signup">
     <div class="container-fluid signupContainer">
         <form id="msform">
-            <fieldset class="fieldtabs">
+            <div class="fieldtabs step-1 active">
                 <div id="fieldHeader">
                     <h2>Get Started!</h2>
                 </div>
                 <input type="text" name="fullname" placeholder="Full Name" class="signupInputs">
                 <input type="text" name="email" placeholder="Email" class="signupInputs">
                 <input type="password" name="pass" placeholder="Password" class="signupInputs">
-                <input type="button" name="Continue" class="signupInputs next action-button" value="Continue">
-            </fieldset>
-            <fieldset class="fieldtabs">
+                <input type="button" name="Continue" class="signupInputs action-button next-btn" value="Continue">
+            </div>
+            <div class="fieldtabs step-2">
                 <div id="fieldHeader">
                 <h2>Welcome <span class="1stName"></span></h2>
                 <p>You are almost ready but we just need a few more detials..</p>
@@ -32,9 +32,31 @@
                 <input type="text" name="workspace" placeholder="Name Your Workspace" class="signupInputs">
                 <p>Customize Your Workspace:</p>
                 <div id="workContainer">
-                
+                    <div class="workLeft col-lg-3 col-md-3 col-sm-3">
+                        <div id="preview">
+                            <img src="assets/workspace-icon.png" alt="workspace icon">
+                        </div>
+                    </div>
+                    <div class="workRight col-lg-6 col-md-6 col-sm-6">
+                        <div class="boxColor opt1"></div>
+                        <div class="boxColor opt2"></div>
+                        <div class="boxColor opt3"></div>
+                        <div class="boxColor opt4"></div>
+                        <div class="boxColor opt5"></div>
+                        <div class="boxColor opt6"></div>
+                        <div class="boxColor opt7"></div>
+                        <div class="boxColor opt8"></div>
+                        <div class="boxColor opt9"></div>
+                        <div class="boxColor opt10"></div>
+                        <div class="boxColor opt11"></div>
+                        <div class="boxColor opt12"></div>
+                        <div class="boxColor opt13"></div>
+                        <div class="boxColor opt14"></div>
+                        <div class="boxColor opt15"></div>
+                    </div>
                 </div>
-            </fieldset>
+                <input type="button" name="Continue" class="signupInputs action-button" value="Continue">
+            </div>
         </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
