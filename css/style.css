@@ -166,6 +166,9 @@
 #baseoptions{
     align-items: flex-start;
 }
+#powerUp{
+    top: -35px
+}
 
 .cardContainer {
     padding: 16px 8px;
