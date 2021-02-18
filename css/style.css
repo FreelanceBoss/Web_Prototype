@@ -1,0 +1,192 @@
+#home-bg {
+    background-image: url(../assets/img/background.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #FBFBFB;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 40px;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+    color: #3C3C3C;
+}
+
+#nav-options {
+    justify-content: space-around;
+}
+
+#nav-options a {
+    margin-right: 32px;
+    font-size: 16px;
+    color: #1E3A53;
+}
+.btn{
+    background-color: #1431D9;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 194px;
+    height: 45px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#header-blurb,
+#websignup-blurb {
+    width: 75%;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+#header-blurb h1{
+    font-size: 46px;
+    font-weight: bold;
+}
+#header-blurb h4{
+    font-size: 23px;
+    
+    color: #D94B18;
+}
+
+#header-blurb button {
+    margin-top: 24px;
+}
+
+.separator {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    align-items: center;
+    text-align: center;
+    color: #D7D7D7;
+    font-size: 16px;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: #F1F1F1;
+}
+
+.tab button {
+    background-color: #F1F1F1;
+    float: left;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.tab button.active {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+}
+
+.fas{
+    margin-right: 15px;
+}
+
+.tabcontent {
+    display: none;
+    justify-content: center;
+    background-color: white;
+    padding: 6px 12px;
+    border:none;
+}
+.tab-left, .tab-right{
+    padding: 24px 40px;
+}
+.tab-right img{
+    width: 100%;
+}
+
+#websignup {
+    background-color: #91A0F2;
+}
+
+#websignup-blurb form {
+    display: flex;
+    justify-content: center;
+}
+
+#header, #mgsTABS,
+#baseoptions,
+#testimonial,
+#newsletter,
+#footer {
+    padding: 24px 40px;
+}
+
+.cardContainer {
+    padding: 16px 8px;
+    text-align: center;
+}
+
+#rowHEADER {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    padding: 16px 24px;
+}
+
+.cardContainer button {
+    margin-top: 16px;
+}
+
+.test-img img {
+    width: 100%;
+}
+
+#newsletter {
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+
+#footer {
+    background-color: #1E3A53;
+    color: white;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 0;
+}
