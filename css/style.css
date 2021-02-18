@@ -114,12 +114,13 @@
 .tabcontent {
     display: none;
     justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 6px 12px;
     border:none;
 }
 .tab-left, .tab-right{
-    padding: 24px 40px;
+    padding: 24px;
 }
 .tab-right img{
     width: 100%;
@@ -128,10 +129,31 @@
 #websignup {
     background-color: #91A0F2;
 }
+#websignup-blurb h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+#websignup-blurb p{
+    font-size: 20px;
+}
 
 #websignup-blurb form {
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+.form-input{
+    width: 75%;
+    font-size: 18px;
+    padding: 0 24px
+}
+.form-btn{
+    border: none;
+    background-color: #1431D9;
+    color: white;
+    font-size: 26px;
+    width: 25%;
+    height: 52px;
 }
 
 #header, #mgsTABS,
@@ -139,21 +161,72 @@
 #testimonial,
 #newsletter,
 #footer {
-    padding: 24px 40px;
+    padding: 24px 48px;
+}
+#baseoptions{
+    align-items: flex-start;
 }
 
 .cardContainer {
     padding: 16px 8px;
     text-align: center;
 }
+.cardContainer button{
+    width: 100%;
+}
 
 #rowHEADER {
     width: 100%;
     text-align: center;
+    font-size: 42px;
+    font-weight: bold;
 }
-
+#rowHEADER h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+#popTag{
+    width: 135px;
+    height: 35px;
+    background-color: #D94B18;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    margin: 0 auto;
+    z-index: 100;
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
 .card {
     padding: 16px 24px;
+    box-shadow: 0px 1px 10px rgba(54, 79, 217, 0.2);
+    border-radius: 10px;
+    border: none;
+}
+.card h3{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+.card p{
+    font-size: 18px;
+    margin: 8px ;
+}
+.card hr{
+    margin: 8px 0px;
+    border-color: #707070;
+}
+#num-teammates{
+    color: #364FD9;
+    margin: 16px
+}
+.card h4{
+    margin: 8px;
+    color: #D94B18;
+    font-size: 24px;
 }
 
 .cardContainer button {
