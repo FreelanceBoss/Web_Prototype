@@ -1,3 +1,11 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #home-bg {
     background-image: url(../assets/img/background.png);
     background-size: 100% auto;
@@ -37,6 +45,8 @@
 .row {
     display: flex;
     justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #header-blurb,
@@ -49,15 +59,16 @@
 #header-blurb h1{
     font-size: 46px;
     font-weight: bold;
+    padding-bottom: 40px;
 }
 #header-blurb h4{
     font-size: 23px;
-    
     color: #D94B18;
+    padding-bottom: 40px;
 }
 
 #header-blurb button {
-    margin-top: 24px;
+    margin-top: 30px;
 }
 
 .separator {
@@ -66,8 +77,9 @@
     margin-bottom: 48px;
     align-items: center;
     text-align: center;
-    color: #D7D7D7;
+    color: #a9a9a9;
     font-size: 16px;
+    padding-top: 50px;
 }
 
 .separator::before,
@@ -128,6 +140,8 @@
 
 #websignup {
     background-color: #91A0F2;
+    margin-left: -25px;
+    margin-right: -25px;
 }
 #websignup-blurb h2{
     font-size: 32px;
@@ -167,7 +181,7 @@
     align-items: flex-start;
 }
 #powerUp{
-    top: -35px
+    top: -35px;
 }
 
 .cardContainer {
@@ -187,6 +201,7 @@
 #rowHEADER h2{
     font-size: 42px;
     font-weight: bold;
+    padding: 40px 0px;
 }
 #popTag{
     width: 135px;
