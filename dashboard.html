@@ -13,8 +13,174 @@
 
 <body>
     <div class="container-fluid">
-        
-        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Freelance Boss</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <input class="form-control mr-sm-2" id="navSearch-input" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" id="navSearch-btn" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="sideBar col-lg-3 col-md-3 col-sm-3">
+                <div id="db-nav">
+                    <div id="db-navlinks">
+                        <div id="db-accent"></div>
+                        <div id="db-text">
+                            <img src="assets/img/icons/group-work.png">
+                            <h4>Dashboard</h4>
+                        </div>
+                    </div>
+                    <div id="db-navlinks-notselected">
+                        <div id="db-accent-notselected"></div>
+                        <div id="db-text">
+                            <img src="assets/img/icons/group-work.png">
+                            <h4>Jobs</h4>
+                        </div>
+                    </div>
+                    <div id="db-navlinks-notselected">
+                        <div id="db-accent-notselected"></div>
+                        <div id="db-text">
+                            <img src="assets/img/icons/group-work.png">
+                            <h4>Workspace</h4>
+                        </div>
+                    </div>
+                    <div id="db-navlinks-notselected">
+                        <div id="db-accent-notselected"></div>
+                        <div id="db-text">
+                            <img src="assets/img/icons/group-work.png">
+                            <h4>Contacts</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="db-usersettings">
+                    <div id="db-user-left">
+                        <img src="assets/img/user-img.png" alt="user profile">
+                        <h5>John Doe</h5>
+                    </div>
+                    <div id="db-user-right">
+                        <img src="assets/img/icons/chevron-down.png" alt="chevron down">
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-content col-lg-9 col-md-9 col-sm-9">
+                <div class="row" id="dashboard-items">
+                    <div id="db-top">
+                        <div id="db-top-left">
+                            <h3>Analytics</h3>
+                            <h4>As of today</h4>
+                        </div>
+                        <div id="db-top-right">
+                            <button>Days</button>
+                            <button>Weeks</button>
+                            <button>Months</button>
+                        </div>
+                    </div>
+                    <div id="db-bottom">
+                        <div class="cardContainer col-lg-3 col-md-3 col-sm-3">
+                            <div class="card">
+                                <p>Proposals sent</p>
+                                <div class="card-numbers">
+                                    <h3>10</h3>
+                                    <div id="db-icons">
+                                        <i class="fas fa-percent"></i>
+                                    </div>
+                                </div>
+                                <p id="perchange"><i>2.1&#37; &#8593;</i> Week after week</p>
+                            </div>
+                        </div>
+                        <div class="cardContainer col-lg-3 col-md-3 col-sm-3">
+                            <div class="card">
+                                <p>Active clients</p>
+                                <div class="card-numbers">
+                                    <h3>3</h3>
+                                    <div id="db-icons">
+                                        <i class="fas fa-percent"></i>
+                                    </div>
+                                </div>
+                                <p id="perchange"><i>200&#37; &#8593;</i> Week after week</p>
+                            </div>
+                        </div>
+                        <div class="cardContainer col-lg-3 col-md-3 col-sm-3">
+                            <div class="card">
+                                <p>Revenue</p>
+                                <div class="card-numbers">
+                                    <h3>&#36;1,980.00</h3>
+                                    <div id="db-icons">
+                                        <i class="fas fa-dollar-sign"></i>
+                                    </div>
+                                </div>
+                                <p id="perchange"><i>2.1&#37; &#8593;</i> Week after week</p>
+                            </div>
+                        </div>
+                        <div class="cardContainer col-lg-3 col-md-3 col-sm-3">
+                            <div class="card">
+                                <p>Expenses</p>
+                                <div class="card-numbers">
+                                    <h3>&#36;342.00</h3>
+                                    <div id="db-icons">
+                                        <i class="fas fa-percent"></i>
+                                    </div>
+                                </div>
+                                <p id="perchange"><i id="bad">25&#37; &#8595;</i> Week after week</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="dashboard-items">
+                    <div class="col-lg-8 col-md-8 col-sm-8" id="db-progress">
+                        <img src="assets/img/chart-placeholder.png" alt="gant chart">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4" id="db-todo">
+                        <div id="todo-list">
+                            <div id="db-todo-header">
+                                <h4>To do list</h4>
+                            </div>
+                            <div id="db-todo-body">
+                                <div id="db-todo-item">
+                                    <div id="db-todo-accent-1"></div>
+                                    <div id="db-todo-text">
+                                        <h6>Follow up on proposal</h6>
+                                        <p>Customer ID&#35;01223</p>
+                                    </div>
+                                    <div id="db-todo-checkbox"></div>
+                                </div>
+                                <div id="db-todo-item">
+                                    <div id="db-todo-accent-2"></div>
+                                    <div id="db-todo-text">
+                                        <h6>Schedule usability interviews</h6>
+                                        <p>Customer ID&#35;01233</p>
+                                    </div>
+                                    <div id="db-todo-checkbox"></div>
+                                </div>
+                                <div id="db-todo-item">
+                                    <div id="db-todo-accent-3"></div>
+                                    <div id="db-todo-text">
+                                        <h6>Work on KPI's with Sam</h6>
+                                        <p>Customer ID&#35;01223</p>
+                                    </div>
+                                    <div id="db-todo-checkbox"></div>
+                                </div>
+                                <div id="db-todo-item">
+                                    <div id="db-todo-accent-1"></div>
+                                    <div id="db-todo-text">
+                                        <h6>Ideate onboarding ideas</h6>
+                                        <p>Customer ID&#35;01223</p>
+                                    </div>
+                                    <div id="db-todo-checkbox"></div>
+                                </div>
+                                <hr>
+                                <a href="#">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

@@ -1,0 +1,212 @@
+body{
+    background-color: #FBFBFB;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    z-index: 2;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    padding: 0;
+}
+#navSearch-input{
+    margin: 0 !important;
+    border: none
+}
+.row{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.sideBar{
+    height: 95vh;
+}
+#db-nav{
+    width: 100%;
+}
+#db-navlinks{
+    width: 100%;
+    height: 75px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content:flex-start;
+}
+#db-accent{
+    width: 7px;
+    height: 100%;
+    background-color: #55DAA5;
+}
+#db-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+#db-text h4{
+    margin: 0;
+    margin-left: 16px;
+}
+#db-text img {
+    width: 30px;
+    height: 30px;
+}
+#db-navlinks-notselected{
+    height: 75px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content:flex-start;
+}
+#db-accent-notselected{
+    width: 7px;
+    height: 100%;
+    background-color: #F3F3F3;
+}
+#db-navlinks-notselected:hover{
+    background-color: #F3F3F3;
+    
+}
+#db-navlinks-notselected:hover > #db-accent-notselected{
+    background-color: #91A0F2;
+}
+#db-usersettings{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+}
+#db-user-left{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#db-user-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-content{
+    width: 100%;
+}
+#dashboard-items{
+    padding: 24px;
+}
+#db-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+#db-top-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#db-top-left h3{
+    margin-right: 24px;
+}
+#db-top-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#db-bottom{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card{
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 1px 4px rgba(21,34,50,0.08);
+}
+.card-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#db-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    background-color: rgba(0,88,255,0.1);
+    border-radius: 100%;
+}
+#db-icons i{
+    text-align: center;
+    width: 24px;
+    color: #0058FF;
+}
+#perchange{
+    font-size: 16px;
+}
+#perchange i{
+    color: #3DD598;
+}
+#perchange #bad{
+    color: #F0142F;
+}
+.card-numbers h3{
+    font-size: 24px;
+}
+#db-progress img{
+    width: 100%;
+}
+#todo-list{
+    padding: 16px 8px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 4px rgba(21,34,50,0.16);
+}
+#db-todo-item{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+/*    justify-content:space-between;*/
+    margin-bottom: 4px;
+}
+
+#db-todo-accent-1{
+    width: 9px;
+    height: 100%;
+    background-color: #1431D9;
+}
+#db-todo-accent-2{
+    background-color: #D94B18;
+    width: 9px;
+    height: 100%;
+}
+#db-todo-accent-3{
+    background-color: #91A0F2;
+    width: 9px;
+    height: 100%;
+}
+#db-todo-text{
+    padding: 8px;
+    width: 250px;
+}
+#db-todo-text h6, #db-todo-text p{
+    margin: 0;
+}
+#db-todo-checkbox{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background-color: #1E3A53;
+}
