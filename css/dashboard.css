@@ -15,7 +15,22 @@ body{
 }
 #navSearch-input{
     margin: 0 !important;
-    border: none
+    border: none;
+    background-color: #F2F2F2;
+    width: 250px;
+    border-radius: 0px;
+    
+}
+#navSearch-input::placeholder{
+    font-weight: 500;
+    font-size: 18px;
+}
+#navSearch-btn{
+    background-color: #364FD9;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0px;
 }
 .row{
     width: 100%;
@@ -23,7 +38,7 @@ body{
     margin: 0;
 }
 .sideBar{
-    height: 95vh;
+    height: 93vh;
 }
 #db-nav{
     width: 100%;
@@ -110,17 +125,40 @@ body{
 #db-top-left{
     width: 50%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-start;
 }
 #db-top-left h3{
+    font-size: 32px;
+    font-weight: 600;
     margin-right: 24px;
+}
+#db-top-left h4{
+    color: #364FD9;
+    font-weight: 500;
+    font-size: 23px;
 }
 #db-top-right{
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+#db-top-right button{
+    border: 1px solid #D7DBEC;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 64px;
+    padding: 9px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#db-top-right button:hover{
+    background-color: #0058FF;
+    color: white;
 }
 #db-bottom{
     width: 100%;
@@ -129,15 +167,26 @@ body{
     justify-content: space-between;
 }
 .card{
-    padding: 16px;
+    padding: 8px;
     border: none;
     border-radius: 6px;
     box-shadow: 0px 1px 4px rgba(21,34,50,0.08);
+}
+.card p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1E3A53;
+    margin: 0;
 }
 .card-numbers{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.card-numbers h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #131523;
 }
 #db-icons{
     display: flex;
@@ -155,9 +204,11 @@ body{
 }
 #perchange{
     font-size: 16px;
+    font-weight: 500;
 }
 #perchange i{
     color: #3DD598;
+    font-style: normal;
 }
 #perchange #bad{
     color: #F0142F;
@@ -173,13 +224,22 @@ body{
     border-radius: 6px;
     box-shadow: 0px 1px 4px rgba(21,34,50,0.16);
 }
+#db-todo-header{
+    width: 100%;
+    padding: 16px;
+}
+#db-todo-header h4{
+    font-size: 18px;
+    font-weight: 600;
+}
 #db-todo-item{
     width: 100%;
     height: 70px;
     display: flex;
     align-items: center;
-/*    justify-content:space-between;*/
+    justify-content:space-between;
     margin-bottom: 4px;
+    cursor: pointer;
 }
 
 #db-todo-accent-1{
@@ -199,14 +259,33 @@ body{
 }
 #db-todo-text{
     padding: 8px;
-    width: 250px;
+    width: 200px;
+    margin-right: 16px;
 }
 #db-todo-text h6, #db-todo-text p{
     margin: 0;
 }
+#db-todo-text h6{
+    font-size: 14px;
+    font-weight: 500;
+    color: #131523;
+}
+#db-todo-text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #7E84A3;
+}
 #db-todo-checkbox{
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     background-color: #1E3A53;
+}
+#db-todo-body hr{
+    background-color: #E6E9F4;
+    width: 90%;
+}
+#db-todo-body a{
+    padding: 16px;
+    font-weight: 500;
 }
