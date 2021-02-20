@@ -311,3 +311,18 @@ body{
     padding: 16px;
     font-weight: 500;
 }
+#addWidgets-btn{
+    position: absolute;
+    z-index: 4;
+    bottom: 50px;
+    left: 350px;
+    width: 70px;
+    height: 70px
+}
+#addWidgets-btn img{
+    width: 100%;
+    cursor: pointer;
+}
+#addWidgets-btn img:hover{
+    filter: brightness(70%);
+}
